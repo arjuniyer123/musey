@@ -9,6 +9,7 @@ var PORT = 3000;
 
 // Express is a web framework for node.js
 // that makes nontrivial applications easier to build
+<<<<<<< HEAD
 // var express = require('express');
 
 // Create the server instance
