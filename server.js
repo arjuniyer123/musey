@@ -20,7 +20,6 @@ var PORT = 3000;
 
 // Return all pages in the /static directory
 // whenever they are requested at '/'
-// e.g., http://localhost:3000/index.html
 // maps to /static/index.html on this machine
 // app.use(express.static(__dirname + '/static'));
 
