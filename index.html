@@ -5,6 +5,7 @@
     <title>Musey</title>
     <meta name="description" content="Musey is a fun and easy tool for making music on the go."/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="black-translucent"> 
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/flat-ui.css" rel="stylesheet">
 
@@ -16,23 +17,22 @@
 	    <div class="container-fluid">
 	      <div class="headline">
 	        <h1 style="color:#">
-	          Musey<br>
+	          <a href="index.html">Musey</a><br>
 	          <small>Music on the go.</small>
 	        </h1>
 	      </div>
 	    </div>
     </header>
     
-	<div class="container-fluid" id="homegrid">
+	<div class="container-fluid" style="max-width:350px;">
         <div class="col-xs-12">
-          	<div class="row demo-navigation">
+          	<div class="row">
 	            <div class="col-xs-12">
 	              <div class="btn-toolbar">
-	                <div id="instrums" class="btn-group" style="width:100%;padding: 0 30px;">
-		              <div class="col-xs-6" style="padding-bottom:30px;"><button class="btn btn-primary" href="#fakelink"><img src="images/drum.png"></button></div>
-	                  <div class="col-xs-6" style="padding-bottom:30px;"><button class="btn btn-primary" href="#fakelink"><img src="images/piano.png"></button></div>
-	                  <div class="col-xs-6"><button class="btn btn-primary" href="#fakelink"><img src="images/3x3.png"></button></div>
-	                  <div class="col-xs-6"><button class="btn btn-primary" href="#fakelink"><img src="images/mic.png"></button></div>
+	                <div class="btn-group" id="splashbutts">
+		                <div class="col-xs-12"><a href="login.html" role="button" class="btn btn-primary btn-hg">Login</a></div>
+		                <div class="col-xs-12"><a href="signup.html" role="button" class="btn btn-primary btn-hg">Sign Up</a></div>
+		               <div class="col-xs-12"><a href="#" class="btn btn-primary btn-hg">Continue as Guest</a></div>
 	                </div>
 	              </div> <!-- /toolbar -->
 	            </div>
@@ -46,7 +46,7 @@
 
 
 
-      <nav class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
+      <!--nav class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
 	        <ul class="nav navbar-nav col-xs-12" id="bottomnav">
 		        <div class="col-xs-6">
 			      <li>
@@ -59,7 +59,7 @@
 			      </li>
 			    </div>
 	        </ul>
-      </nav>
+      </nav-->
 
     
     <!-- Load JS here for greater good =============================-->
@@ -76,5 +76,8 @@
     <script src="js/jquery.stacktable.js"></script>
     <script src="http://vjs.zencdn.net/4.3/video.js"></script>
     <script src="js/application.js"></script>
+    <script>$(".btn").mouseup(function(){
+    $(this).blur();
+})</script>
   </body>
 </html>
