@@ -31,6 +31,16 @@ html {
 	height: 150px;
 }
 
+#splashbutts > div > button {
+	width: 100%;
+	padding: 15px 35px;
+	text-align: center;
+}
+
+#splashbutts > div {
+	margin: 15px auto;
+}
+
 @font-face {
   font-family: 'Lato';
   src: url('../fonts/lato/lato-black.eot');
