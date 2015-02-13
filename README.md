@@ -1,9 +1,8 @@
 [![Build Status](https://travis-ci.org/nolimits4web/Framework7.svg?branch=master)](https://travis-ci.org/nolimits4web/Framework7)
 [![devDependency Status](https://david-dm.org/nolimits4web/framework7/dev-status.svg)](https://david-dm.org/nolimits4web/framework7#info=devDependencies)
 
-# Musey
+Musey
 ==========
-
 ## Getting Started
   * [Getting Started Guide](http://www.idangero.us/framework7/get-started/)
   * Pull this repo
