@@ -9,6 +9,7 @@ Musey
   * Install gulp globally `$ sudo npm install --global gulp`
   * From inside the root directory, install dependencies `$ npm install`
   * Now start server: `$ gulp`
+  * `gulp` will initially send you to http://localhost:3000/kitchen-sink/. just change "kitchen-sink" to "dist" to view our site 
   * [Kitchen Sink](http://localhost:3000/kitchen-sink/) will be available on `http://localhost:3000/kitchen-sink/`
   * [Dist](http://localhost:3000/dist/) - on `http://localhost:3000/dist/`
 
