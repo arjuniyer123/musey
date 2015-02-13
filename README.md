@@ -9,8 +9,6 @@ Musey
   * Install gulp globally `$ sudo npm install --global gulp`
   * From inside the root directory, install dependencies `$ npm install`
   * Now start server: `$ gulp`
-  * 
-
   * [Kitchen Sink](http://localhost:3000/kitchen-sink/) will be available on `http://localhost:3000/kitchen-sink/`
   * [Dist](http://localhost:3000/dist/) - on `http://localhost:3000/dist/`
 
@@ -25,7 +23,3 @@ Documentation available at http://idangero.us/framework7/docs/
 ## Tutorials
 
 Tutorials available at http://idangero.us/framework7/tutorials/
-
-## Showcase
-
-Appstore apps made with Framework7: http://idangero.us/framework7/showcase/
