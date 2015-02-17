@@ -4,7 +4,7 @@
 Musey
 ==========
 ## Getting Started
-  * [Getting Started Guide](http://www.idangero.us/framework7/get-started/)
+  * [Framework7 Getting Started Guide](http://www.idangero.us/framework7/get-started/)
   * Pull this repo
   * Install gulp globally `$ sudo npm install --global gulp`
   * From inside the root directory, install dependencies `$ npm install`
