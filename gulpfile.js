@@ -451,7 +451,7 @@
     });
     
     gulp.task('open', function () {
-        return gulp.src(paths.ks.root + 'index.html').pipe(open('', { url: 'http://localhost:3000/' + paths.ks.root + 'index.html'}));
+        return gulp.src(paths.dist.root + 'index.html').pipe(open('', { url: 'http://localhost:3000/' + paths.dist.root + 'index.html'}));
     });
 
     gulp.task('server', [ 'watch', 'connect', 'open' ]);
