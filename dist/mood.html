@@ -17,6 +17,17 @@
     <div class="page-content">
         <div class="list-block">
                 <ul>
+                  <script id="genre-template" type="x-handlebars-template">
+                  {{#each Moods}}
+                  <li><a href="#" class="item-link">
+                    <div class="item content">
+                      <div class="item-inner">
+                        <div class="item-title">{{mood}}</div>
+                      </div>
+                    </div></a>
+                  </li>
+                  {{/each}} 
+                  </script> 
                   <li><a href="#" class="item-link">
                       <div class="item-content">
                         <div class="item-inner"> 

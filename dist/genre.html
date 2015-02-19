@@ -1,4 +1,3 @@
-
 <!-- We don't need full layout here, because this page will be parsed with Ajax-->
 <!-- Top Navbar-->
 <div class="navbar">
@@ -17,6 +16,17 @@
     <div class="page-content">
         <div class="list-block">
                 <ul>
+                  <script id="genre-template" type="x-handlebars-template">
+                  {{#each Genres}}
+                  <li><a href="#" class="item-link">
+                      <div class="item-content">
+                        <div class="item-inner"> 
+                          <div class="item-title">{{genre}}</div>
+                        </div>
+                      </div></a>
+                  </li>
+                  {{/each}}
+                  </script>
                   <li><a href="#" class="item-link">
                       <div class="item-content">
                         <div class="item-inner"> 
